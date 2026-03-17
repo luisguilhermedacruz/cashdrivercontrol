@@ -12,6 +12,3 @@ def read_root():
 def health_check():
     return {"status": "ok"}
 
-@app.get("/test")
-def test():
-    return {"msg": "funcionando"}
